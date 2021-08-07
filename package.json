@@ -12,7 +12,7 @@
     "semantic-release": "semantic-release"
   },
   "keywords": [
-    "commizien",
+    "commitizen",
     "ci",
     "cd",
     "template"
