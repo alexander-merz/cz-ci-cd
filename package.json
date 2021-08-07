@@ -1,0 +1,20 @@
+{
+  "name": "cz-ci-cd",
+  "version": "0.1.0",
+  "description": "Commitizen, Continuos Integration and Continuos Deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "commizien",
+    "ci",
+    "cd",
+    "template"
+  ],
+  "author": "Alexander Merz",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
