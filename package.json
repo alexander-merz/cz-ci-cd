@@ -2,7 +2,7 @@
   "name": "cz-ci-cd",
   "version": "0.0.0-development",
   "description": "Commitizen, Continuos Integration and Continuos Deployment",
-  "main": "index.js",
+  "main": "src/index.js",
   "publishConfig": {
     "access": "public"
   },
