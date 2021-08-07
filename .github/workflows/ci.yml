@@ -6,7 +6,7 @@ on:
       - 'dev'
 
 jobs:
-  build:
+  install-test-build:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: true
@@ -21,3 +21,4 @@ jobs:
           node-version: ${{ matrix.node }}
       - run: npm ci
       - run: npm test
+      - run: npm run build

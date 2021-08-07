@@ -2,13 +2,15 @@
   "name": "cz-ci-cd",
   "version": "0.0.0-development",
   "description": "Commitizen, Continuos Integration and Continuos Deployment",
-  "main": "index.js",
+  "main": "dist/index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "cz": "cz",
     "test": "jest",
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
     "semantic-release": "semantic-release"
   },
   "keywords": [
@@ -20,9 +22,14 @@
   "author": "Alexander Merz",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.15.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.2.0",
     "jest": "^27.0.6",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.56.0",
     "semantic-release": "^17.4.4"
   },
   "config": {
