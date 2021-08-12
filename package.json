@@ -73,7 +73,7 @@
   },
   "homepage": "https://github.com/alexander-merz/cz-ci-cd#readme",
   "dependencies": {
-    "tslib": "^1.14.1"
+    "tslib": "^2.3.1"
   },
   "optionalDependencies": {
     "fsevents": "^2.3.2"
