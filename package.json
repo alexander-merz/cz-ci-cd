@@ -36,7 +36,7 @@
   "author": "Alexander Merz",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.15.0",
+    "@babel/core": "^7.23.0",
     "@babel/plugin-transform-modules-commonjs": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-typescript": "^7.15.0",
@@ -56,7 +56,7 @@
     "rimraf": "^3.0.2",
     "rollup": "^2.56.0",
     "rollup-plugin-typescript2": "^0.30.0",
-    "semantic-release": "^18.0.0",
+    "semantic-release": "^18.0.1",
     "typescript": "^4.3.5"
   },
   "config": {
